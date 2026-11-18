@@ -75,7 +75,7 @@ KS_PASS = "123456"                                       # 密钥库密码（用
 ZIPALIGN = Path(r"D:\Personal Files\Reverse\APK签名\zipalign.exe")   # build-tools 版（ZIP64 支持 >2GB）
 ADB = Path(r"D:\Software\Android\platform-tools\adb.exe")
 SCRIPT_DIR = Path(__file__).resolve().parent              # gfp 项目根
-DEFAULT_ORIG = Path(r"D:\Software\功夫派\YierPai.apk")
+DEFAULT_ORIG = Path(r"D:\Software\功夫派\YierPai\YierPai.apk")
 ANDROID_RAW_DIR = Path(r"D:\Downloads\temp\GDRE\GFP_Android_raw")
 
 # ===================== 游戏/打包参数 =====================
